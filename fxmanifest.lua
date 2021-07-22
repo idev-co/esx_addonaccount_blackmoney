@@ -13,4 +13,3 @@ server_scripts {
 }
 
 dependency 'es_extended'
-client_script '@big_brother/mybigbrother.lua'
