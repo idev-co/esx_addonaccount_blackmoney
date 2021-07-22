@@ -4,7 +4,7 @@ Requirements :
 This is a edited version of esx_addonaccount to allow you to use blackmoney
 
 ```lua
-TriggerEvent('esx_addonaccount_blackmoney:getSharedAccount', 'ballas', function(account)
+TriggerEvent('esx_addonaccount_blackmoney:getSharedAccount', 'society_ballas', function(account)
 		xPlayer.removeAccountMoney('black_money', amount)
 		account.addBlackMoney(amount)
 	end)
